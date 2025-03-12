@@ -1,3 +1,4 @@
+from config import CONFIG
 from ui.main_window import MainWindow
 from threading import Thread
 import time
@@ -9,6 +10,7 @@ def auto_start_function():
         time.sleep(5)
 
 def main():
+
     # Instantiate the main window from the ui module.
     app = MainWindow()
     

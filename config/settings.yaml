@@ -1,0 +1,12 @@
+app:
+  name: "Mentat"
+  version: "1.0"
+
+# Base directories relative to the project root
+paths:
+  data_dir: "data"
+  transcripts_dir: "data/transcripts"
+  reports_dir: "data/reports"
+
+services:
+  AZURE_INFERENCE_CREDENTIAL: "bgPmgSmdESRKu3Qq4zsZ8TgGSL2RaPLN"
