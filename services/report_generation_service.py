@@ -1,6 +1,7 @@
 import os
 import glob
 import json
+from datetime import datetime
 from config import CONFIG
 from services.file_manager import create_and_write_report
 from azure.ai.inference import ChatCompletionsClient
@@ -30,7 +31,13 @@ def generate_report():
     if not list_of_files:
         print("No transcript files found.")
         return None
-    latest_file = max(list_of_files, key=os.path.getctime)
+    
+    for file in list_of_files:
+        mod_time = os.path.getmtime(file)
+        readable_time = datetime.fromtimestamp(mod_time).strftime('%Y-%m-%d %H:%M:%S')
+        print(f"{file} was last modified on: {readable_time}")
+
+    latest_file = max(list_of_files, key=os.path.getmtime)
     
     try:
         with open(latest_file, 'r') as file:
