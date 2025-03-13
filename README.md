@@ -1,6 +1,4 @@
-Great! I'll create a professional README file that effectively highlights the technology behind Mentat. It will include sections for installation, usage, features, and licensing, and will maintain a tone suitable for developers and potential investors. I'll also ensure the document structure aligns with best practices from successful software projects. I'll notify you once it's ready for review.
-
- ([Home | Mentat](https://luisedmundo354.github.io/mentat_website/#:~:text=Mentat%3A%20Transforming%20Medical%20Decision)) ([Home | Mentat](https://luisedmundo354.github.io/mentat_website/))  
+([Home | Mentat](https://luisedmundo354.github.io/mentat_website/#:~:text=Mentat%3A%20Transforming%20Medical%20Decision)) ([Home | Mentat](https://luisedmundo354.github.io/mentat_website/))  
 # Mentat AI  
 *Transforming Medical Decision-Making*  
 
